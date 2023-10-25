@@ -1,0 +1,21 @@
+.box-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.product {
+    background-color: whitesmoke;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+
+
+
+.product h2 {
+    font-weight: 700;
+    font-size: 20px;
+}
+

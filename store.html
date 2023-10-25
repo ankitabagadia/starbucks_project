@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg shadow">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo.png" alt="" />
+            </a>
+            <button class="navbar-toggler shadow-none border-0 text-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item  px-4">
+                        <a href="index.html" class="nav-link ">Home</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="items.html" class="nav-link">Items</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="order.html" class="nav-link">Order</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="#" class="nav-link" data-bs-target="#pay" data-bs-toggle="modal">Login</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="#" class="nav-link" data-bs-target="#signup" data-bs-toggle="modal">SignUp</a>
+                    </li>
+                    <li class="nav-item active px-4">
+                        <a href="store.html" class="nav-link">Store</a>
+                    </li>
+                </ul>
+                <form class="d-flex align-items-center ms-auto header-icon" role="search">
+                    <input class="form-control shadow-sm me-5 rounded-pill" type="search"
+                        placeholder="Looking for something specific?" aria-label="Search" />
+                    <img src="img/account_thin.svg" alt="" />
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="d-flex flex-wrap">
+            <aside class="bg-primary p-3">
+                <form class="d-flex align-items-center ms-auto header-icon" role="search">
+                    <input class="form-control shadow-sm rounded-pill" type="search"
+                        placeholder="find a store near you " aria-label="Search" />
+                </form>
+                <div class="card p-3 my-3">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <div class="recommed-img-box">
+                                <img src="https://tsbprods3.azureedge.net/Stores/Store_Image_Def.jpg"
+                                    class="img-fluid rounded-start" alt="..." />
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body p-0">
+                                <h4 class="card-title font-20 fw-bold m-0">
+                                    LP Savani Road Surat
+                                </h4>
+                                <h5 class="font-14">8.29 kms away. <span class="text-success fw-bold"
+                                        data-bs-toggle="tooltip" data-bs-title="Default tooltip"
+                                        data-bs-placement="right">Open</span></h5>
+                                <img src="img/dine in.svg" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hstack justify-content-between">
+                        <h5 class="font-14"><img src="img/car_alternate_2.svg" alt=""> 19 mins drive</h5>
+                        <button class="btn btn-primary rounded-pill addbtn py-1 px-4" data-bs-toggle="popover"
+                            data-bs-title="hello" data-bs-content="hello world" data-bs-placement="bottom"
+                            data-bs-trigger="focus">
+                            Show direction
+                        </button>
+                    </div>
+                </div>
+
+            </aside>
+            <div class="map">
+                <!-- <div class="ratio ratio-1x1"> -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29759.95772121068!2d72.7523287791016!3d21.192368900000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dd1c813f6ff%3A0x4846f4f080553c01!2sSTARBUCKS%20COFFEE!5e0!3m2!1sen!2sin!4v1677059852070!5m2!1sen!2sin"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- </div> -->
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="knowMore" data-bs-backdrop="static">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row py-2">
+                        <div class="col-1">
+                            <img src="img/create_account_7371e188d6.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-11">
+                            <p>
+                                Create an account to get access to full range of Starbucks
+                                Rewards Benefits
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="img/earn_stars_redeem_rewards_e0be5531df.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-11">
+                            <p>
+                                As you earn stars, you can redeem them for rewards—like free
+                                drinks, and more when you annually spend Rs 600 or more.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="img/starfor_spend_bf8f7b7350.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="col-11">
+                            <p>
+                                Earn a star on every Rs 300 spent on your registered Starbucks
+                                Card
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-primary" data-bs-dismiss="modal">
+                        Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- login modal -->
+
+    <div class="modal fade" id="pay" data-bs-backdrop="static">
+        <div class="modal-dialog  modal-lg modal-dialog-centered">
+            <div class="modal-content p-3 border-0 rounded-5">
+                <div class="modal-header d-block text-end border-0">
+                    <a href="#" data-bs-dismiss="modal" class="text-decoration-none  text-primary fw-bold">SKIP</a>
+                </div>
+                <div class="modal-body">
+                    <h2 class="fw-bold text-primary">Login</h2>
+                    <form action="">
+                        <label for="" class="form-label">Username:</label>
+                        <input type="text" id="" placeholder="Enter Email ID or Mobile number*"
+                            class="form-control mb-3 border-0 border-bottom rounded-0 ps-0">
+                        <label for="" class="form-label">Password:</label>
+                        <input type="password" placeholder="Enter password*"
+                            class="form-control border-0 border-bottom rounded-0 ps-0">
+                        <p class="form-text">Don't have an account? <a href="#" class="text-success"
+                                data-bs-target="#signup" data-bs-toggle="modal">Sign Up</a></p>
+                        <button class="btn btn-secondary w-50 mx-auto d-block mt-4 rounded-pill"
+                            id="loginbtn">Login</button>
+                        <p class="form-text text-center pt-3">Facing trouble logging in? <a href="#"
+                                class="text-success">Get
+                                Help</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- signup modal -->
+
+    <div class="modal fade" id="signup" data-bs-backdrop="static">
+        <div class="modal-dialog  modal-lg modal-dialog-centered">
+            <div class="modal-content p-3 border-0 rounded-5">
+                <div class="modal-header d-block text-end border-0">
+                    <a href="#" data-bs-dismiss="modal" class="text-decoration-none  text-primary fw-bold">SKIP</a>
+                </div>
+                <div class="modal-body">
+                    <h2 class="fw-bold text-primary">SignUp</h2>
+                    <form id="signup">
+                        <label for="" class="form-label">Name:</label>
+                        <input type="text" id="name" placeholder="Enter your name"
+                            class="form-control mb-2 border-0 border-bottom rounded-0 ps-0">
+                        <label for="" class="form-label">Number:</label>
+                        <input type="number" id="number" placeholder="Enter your number"
+                            class="form-control mb-2 border-0 border-bottom rounded-0 ps-0">
+                        <label for="" class="form-label">Email:</label>
+                        <input type="email" id="email" placeholder="Enter Email ID"
+                            class="form-control mb-2 border-0 border-bottom rounded-0 ps-0">
+                        <label for="" class="form-label">Password:</label>
+                        <input type="password" id="password" placeholder="Enter password*"
+                            class="form-control border-0 border-bottom rounded-0 ps-0">
+                        <p class="form-text">Alredy have Account? <a href="#" class="text-success" data-bs-target="#pay"
+                                data-bs-toggle="modal">Login</a></p>
+                        <input class="btn btn-secondary w-50 mx-auto d-block mt-4 rounded-pill" type="submit"
+                            id="loginbtn" value="SignUp">
+                        <p class="form-text text-center pt-3">Facing trouble logging in? <a href="#"
+                                class="text-success">Get
+                                Help</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="./js/signup.js"></script>
+    <script src="./js/login.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+
+        const toastTrigger = document.getElementById('toast-message')
+        const toastLiveExample = document.getElementById('toast-message-box')
+        if (toastTrigger) {
+            toastTrigger.addEventListener('click', () => {
+                const toast = new bootstrap.Toast(toastLiveExample)
+
+                toast.show()
+            })
+        }
+    </script>
+</body>
+
+</html>

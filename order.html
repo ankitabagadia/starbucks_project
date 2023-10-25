@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg shadow">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="img/logo.png" alt="" />
+            </a>
+            <button class="navbar-toggler shadow-none border-0 text-primary" type="button" data-bs-toggle="collapse"
+                data-bs-target="#menu">
+                <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav">
+                    <li class="nav-item  px-4">
+                        <a href="index.html" class="nav-link ">Home</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="items.html" class="nav-link">Items</a>
+                    </li>
+                    <li class="nav-item active px-4">
+                        <a href="order.html" class="nav-link">Order</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="#" class="nav-link" data-bs-target="#pay" data-bs-toggle="modal">Login</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="#" class="nav-link" data-bs-target="#signup" data-bs-toggle="modal">SignUp</a>
+                    </li>
+                    <li class="nav-item px-4">
+                        <a href="store.html" class="nav-link">Store</a>
+                    </li>
+                </ul>
+                <form class="d-flex align-items-center ms-auto header-icon" role="search">
+                    <input class="form-control shadow-sm me-5 rounded-pill" type="search"
+                        placeholder="Looking for something specific?" aria-label="Search" />
+                    <img src="img/account_thin.svg" alt="" />
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="tab-content bg-web" id="myTabContent">
+        <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+            tabindex="0">
+            <section class="py-5 ">
+                <div class="container">
+
+                    <div class="row ">
+                        <!-- <div class="col-12 col-md-4">
+                                <div class="card p-3 order-card border-0" style="max-width: 540px"> -->
+                        <!-- <dv class="row g-0"> -->
+
+
+                        <!-- <div class="col-md-4">
+                                            <div class="recommed-img-box">
+                                                <img src="img/Bestseller.jpg" class="img-fluid rounded-start" alt="..." />
+                                            </div>
+                                        </div>
+                                        <div class="col-md-8">
+                                            <div class="card-body p-0">
+                                                <img src="img/veg.svg" alt="" />
+                                                <h4 class="card-title font-20 fw-bold m-0">
+                                                    Java Chip Frappuccino
+                                                </h4>
+                                                <h5 class="font-14">TALL(354 ML).392 kcal</h5>
+                                                <h3 class="h6  font-yellow fw-bold"><i class="bi bi-star-fill"></i>
+                                                    Bestseller</h3>
+                                                <p class="font-14 pb-4">Rich in flavour, full-bodied espresso with hot water
+                                                    in
+                                                    true...</p>
+                                            </div>
+                                            <div class="hstack justify-content-between">
+                                                <h2 class="font-20 fw-bold pt-3">$35.52</h2>
+                                                <button class="btn btn-primary rounded-pill addbtn py-1 px-4">
+                                                    Add Item
+                                                </button>
+                                            </div>
+                                        </div> -->
+                    </div>
+                    <h3 id="total"></h3>
+                    <div class="btn-buy text-center">
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+        </div>
+
+    </div>
+    </section>
+
+    </div>
+
+
+    <footer class="bg-primary py-5 mt-5">
+        <div class="container">
+            <div class="row border-0 border-bottom pb-4">
+                <div class="col-xs-12 col-md-2">
+                    <img src="img/logo.png" alt="" />
+                </div>
+                <div class="col-xs-12 col-md-2">
+                    <h3 class="text-white fw-bold font-20">About Us</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Our Heritage
+                            </a>
+                        </li>
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Our Company
+                            </a>
+                        </li>
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Coffeehouse
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-2">
+                    <h3 class="text-white fw-bold font-20">Responsibility</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Our Heritage
+                            </a>
+                        </li>
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Our Company
+                            </a>
+                        </li>
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Coffeehouse
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-2">
+                    <h3 class="text-white fw-bold font-20">Quick Links</h3>
+                    <ul class="list-group list-group-flush">
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Our Heritage
+                            </a>
+                        </li>
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Our Company
+                            </a>
+                        </li>
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Coffeehouse
+                            </a>
+                        </li>
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Coffeehouse
+                            </a>
+                        </li>
+                        <li class="px-0 list-group-item bg-transparent border-0">
+                            <a href="#" class="text-decoration-none text-white">
+                                Coffeehouse
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-2">
+                    <h3 class="text-white fw-bold font-20">SOCIAL MEDIA</h3>
+                    <div class="hstack align-items-center pt-3">
+                        <i class="bi bi-instagram text-white h3 m-0 pe-3"></i>
+                        <i class="bi bi-facebook text-white h3 m-0 pe-3"></i>
+                        <i class="bi bi-twitter text-white h3 m-0"></i>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-2">
+                    <img src="img/appstoreAndroid.png" class="pb-3" alt="" />
+                    <img src="img/appstoreiOS.png" alt="" />
+                </div>
+            </div>
+            <div class="hstack align-items-center text-white justify-content-between">
+                <div class="hstack pt-4">
+                    <p class="px-3"> Web Accessiblity</p>
+                    <div class="vr"></div>
+                    <p class="px-3"> Privacy Statement</p>
+                    <div class="vr"></div>
+                    <p class="px-3"> Terms of Use</p>
+                    <div class="vr"></div>
+                    <p class="px-3"> Contact Us</p>
+                </div>
+                <p class="pt-4">© 2023 Starbucks Coffee Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade" id="pay" data-bs-backdrop="static">
+        <div class="modal-dialog  modal-lg modal-dialog-centered">
+            <div class="modal-content p-3 border-0 rounded-5">
+                <div class="modal-header d-block text-end border-0">
+                    <a href="#" data-bs-dismiss="modal" class="text-decoration-none  text-primary fw-bold">SKIP</a>
+                </div>
+                <div class="modal-body">
+                    <h2 class="fw-bold text-primary">Login</h2>
+                    <form action="">
+                        <label for="" class="form-label">Username:</label>
+                        <input type="text" id="" placeholder="Enter Email ID or Mobile number*"
+                            class="form-control mb-3 border-0 border-bottom rounded-0 ps-0">
+                        <label for="" class="form-label">Password:</label>
+                        <input type="password" placeholder="Enter password*"
+                            class="form-control border-0 border-bottom rounded-0 ps-0">
+                        <p class="form-text">Don't have an account? <a href="#" class="text-success"
+                                data-bs-target="#signup" data-bs-toggle="modal">Sign Up</a></p>
+                        <button class="btn btn-secondary w-50 mx-auto d-block mt-4 rounded-pill"
+                            id="loginbtn">Login</button>
+                        <p class="form-text text-center pt-3">Facing trouble logging in? <a href="#"
+                                class="text-success">Get
+                                Help</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- signup modal -->
+
+    <div class="modal fade" id="signup" data-bs-backdrop="static">
+        <div class="modal-dialog  modal-lg modal-dialog-centered">
+            <div class="modal-content p-3 border-0 rounded-5">
+                <div class="modal-header d-block text-end border-0">
+                    <a href="#" data-bs-dismiss="modal" class="text-decoration-none  text-primary fw-bold">SKIP</a>
+                </div>
+                <div class="modal-body">
+                    <h2 class="fw-bold text-primary">SignUp</h2>
+                    <form id="signup">
+                        <label for="" class="form-label">Name:</label>
+                        <input type="text" id="name" placeholder="Enter your name"
+                            class="form-control mb-2 border-0 border-bottom rounded-0 ps-0">
+                        <label for="" class="form-label">Number:</label>
+                        <input type="number" id="number" placeholder="Enter your number"
+                            class="form-control mb-2 border-0 border-bottom rounded-0 ps-0">
+                        <label for="" class="form-label">Email:</label>
+                        <input type="email" id="email" placeholder="Enter Email ID"
+                            class="form-control mb-2 border-0 border-bottom rounded-0 ps-0">
+                        <label for="" class="form-label">Password:</label>
+                        <input type="password" id="password" placeholder="Enter password*"
+                            class="form-control border-0 border-bottom rounded-0 ps-0">
+                        <p class="form-text">Alredy have Account? <a href="#" class="text-success" data-bs-target="#pay"
+                                data-bs-toggle="modal">Login</a></p>
+                        <input class="btn btn-secondary w-50 mx-auto d-block mt-4 rounded-pill" type="submit"
+                            id="loginbtn" value="SignUp">
+                        <p class="form-text text-center pt-3">Facing trouble logging in? <a href="#"
+                                class="text-success">Get
+                                Help</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/signup.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/order.js"></script>
+</body>
+
+</html>
